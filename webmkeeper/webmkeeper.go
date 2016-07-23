@@ -133,15 +133,9 @@ func (wk *WebmKeeper) handleRandomAccessPoint(el *edtd.Elem) error {
 		trackNumber--
 
 		wk.incTrackCount(trackNumber)
+
 		if keyframe {
 			wk.trackBlockKeyframe[trackNumber] = true
-		}
-
-		if wk.trackBlockCount[0] == 1 &&
-			wk.trackBlockCount[1] == 1 &&
-			wk.trackBlockKeyframe[0] &&
-			wk.trackBlockKeyframe[1] {
-
 			b := make([]byte, wk.body.Len() - wk.lastCluster)
 			copy(b, wk.body.Bytes()[wk.lastCluster:])
 			wk.body.Reset()
