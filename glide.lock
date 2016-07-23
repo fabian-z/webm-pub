@@ -1,0 +1,9 @@
+hash: 777e7a81866609f07457cca25ad0105f8e66c95a40c38de79ac3fe1cc2eb6801
+updated: 2016-07-23T18:28:06.691521458+02:00
+imports:
+- name: github.com/mediocregopher/ebmlstream
+  version: c44d9f21940b86fa5494409f8306a0eb451e39cc
+  subpackages:
+  - edtd
+  - varint
+devImports: []

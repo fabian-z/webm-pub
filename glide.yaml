@@ -1,0 +1,6 @@
+package: github.com/fabian-z/webm-pub
+import:
+- package: github.com/mediocregopher/ebmlstream
+  subpackages:
+  - edtd
+  - varint
