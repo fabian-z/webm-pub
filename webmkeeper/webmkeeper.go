@@ -8,7 +8,7 @@ import (
 	"github.com/mediocregopher/ebmlstream/edtd"
 	"io"
 
-	"webm-pub/webm"
+	"github.com/fabian-z/webm-pub/webm"
 )
 
 func next(p *edtd.Parser) (*edtd.Elem, error) {

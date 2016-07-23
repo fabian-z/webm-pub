@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"webm-pub/http-pub-sub/pubsub"
+	"github.com/fabian-z/webm-pub/http-pub-sub/pubsub"
 )
 
 // Defines an HTTPPubSub app. Usage is based on using an instance from

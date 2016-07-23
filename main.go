@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"sync"
 
-	hps "webm-pub/http-pub-sub"
-	"webm-pub/webmkeeper"
+	hps "github.com/fabian-z/webm-pub/http-pub-sub"
+	"github.com/fabian-z/webm-pub/webmkeeper"
 )
 
 type connState struct {
